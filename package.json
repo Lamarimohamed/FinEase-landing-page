@@ -10,6 +10,9 @@
     "serve": "vite preview",
     "format": "prettier --write \"src/**/*.{js,jsx,css,md,json}\"",
     "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "react": "^19.0.0",
