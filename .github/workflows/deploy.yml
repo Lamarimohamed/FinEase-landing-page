@@ -28,10 +28,12 @@ jobs:
         run: npm run build
         env:
           VITE_BASE_URL: '/FinEase-landing-page/'
+          NODE_ENV: 'production'
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build
           branch: gh-pages
-          clean: true 
+          clean: true
+          commit-message: "Deploy to GitHub Pages" 
