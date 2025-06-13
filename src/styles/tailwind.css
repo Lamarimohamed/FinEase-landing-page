@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Colors */
+    --primary: #2e8b8b;
+    --primary-light: #78d0cc;
+    --primary-lighter: #d5f2ef;
+    --primary-dark: #1e4243;
+    
+    /* Secondary Colors */
+    --secondary: #0c2527;
+    --secondary-light: #637477;
+    --secondary-lighter: #e7ebeb;
+    --secondary-dark: #091d1f;
+    
+    /* Background Colors */
+    --background: #ffffff;
+    --background-light: #f8f9fa;
+    --background-teal: #f2fbfa;
+    
+    /* Border Colors */
+    --border: #e7ebeb;
+    --border-light: #f2010126;
+    
+    /* Text Colors */
+    --text-primary: #0c2527;
+    --text-secondary: #637477;
+    --text-white: #ffffff;
+    --text-accent: #f20101;
+  }
+}
+
+@layer components {
+  .feature-card {
+    @apply bg-background-teal border border-border rounded-2xl p-6 flex flex-col items-center;
+  }
+  
+  .feature-icon-container {
+    @apply bg-primary w-[60px] h-[60px] rounded-lg flex items-center justify-center mb-5;
+  }
+  
+  .testimonial-card {
+    @apply bg-white border border-border rounded-2xl p-6 shadow-[0px_12px_24px_rgba(36,37,37,0.05)];
+  }
+  
+  .pricing-card {
+    @apply bg-white border border-border rounded-3xl p-6 flex flex-col h-full;
+  }
+  
+  .pricing-card-featured {
+    @apply border-primary border-2 shadow-lg;
+  }
+  
+  .pricing-feature {
+    @apply flex items-center gap-4 py-2.5;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #1e4243 0%, #2e8b8b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
