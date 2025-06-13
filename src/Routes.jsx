@@ -2,7 +2,7 @@ import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Import page components
-import HomePage from './pages/Home';
+import HomePage from './pages/Home/index';
 import FineasePaymentAppHomepage from './pages/finease-payment-app-homepage';
 
 const AppRoutes = () => {
