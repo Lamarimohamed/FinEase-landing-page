@@ -94,14 +94,6 @@ Build the application for production:
 npm run build
 ```
 
-## 🙏 Acknowledgments
-
-- Built with [Rocket.new
-](https: //rocket.new)
-- Powered by React and Vite
-- Styled with Tailwind CSS
-
-Built with ❤️ on Rocket.new
 =======
 # FinEase-landing-page-
 >>>>>>> f5df53da5f458331bfce0364edf0fd0b73fad253
