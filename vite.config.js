@@ -7,6 +7,7 @@ import tagger from "@dhiwise/component-tagger";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(),tagger()],
+  base: '/FinEaseWEB/',
   build: {
     outDir: "build",
   },
