@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite + Tailwind CSS Project
 
 A modern React-based project utilizing the latest frontend technologies and tools for building responsive web applications.
@@ -101,3 +102,6 @@ npm run build
 - Styled with Tailwind CSS
 
 Built with ❤️ on Rocket.new
+=======
+# FinEase-landing-page-
+>>>>>>> f5df53da5f458331bfce0364edf0fd0b73fad253
